@@ -32,7 +32,7 @@ app.post('/sign_up', function(req,res){
     } 
 db.collection('details').insertOne(data,function(err, collection){ 
         if (err) throw err; 
-        console.log("Record inserted Successfully"); 
+        console.log("Record Successfully"); 
               
     }); 
           
